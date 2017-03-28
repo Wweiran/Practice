@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:title=" "
+        >
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/fragment_main"
+                    android:title="Fragment练习"/>
+            </group>
+        </menu>
+    </item>
+    
+    <item
+        android:title=" "
+        >
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/fragment_1"
+                    android:title="fragment_1"/>
+                <item
+                    android:id="@+id/fragment_2"
+                    android:title="fragment_2"/>
+                <item
+                    android:id="@+id/fragment_3"
+                    android:title="fragment_3"/>
+                <item
+                    android:id="@+id/fragment_4"
+                    android:title="fragment_4"/>
+            
+            
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:title="第一梯队">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:menuCategory="system">
+                <item
+                    android:id="@+id/nav_first"
+                    android:title="第一"/>
+                <item
+                    android:id="@+id/nav_second"
+                    android:title="第二"/>
+                <item
+                    android:id="@+id/nav_third"
+                    android:title="第三"/>
+            </group>
+        
+        </menu>
+    </item>
+    
+    <item
+        android:title="第二梯队"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_tenth"
+                android:title="第十"/>
+            <item
+                android:id="@+id/nav_eleventh"
+                android:title="第十一"/>
+        </menu>
+    </item>
+</menu>
