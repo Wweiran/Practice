@@ -101,6 +101,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView
             case R.id.fragment_3:
                 Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivityForResult(loginIntent,REQUEST_LOGIN);
+                break;
+            case R.id.fragment_4:
+                Intent saveDataIntent = new Intent(MainActivity.this, SaveDataActivity.class);
+                startActivity(saveDataIntent);
+                break;
         }
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;

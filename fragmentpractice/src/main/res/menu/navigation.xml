@@ -6,7 +6,7 @@
         android:title=" "
         >
         <menu>
-            <group>
+            <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/fragment_main"
                     android:title="Fragment练习"/>
@@ -30,7 +30,7 @@
                     android:title="fragment_3"/>
                 <item
                     android:id="@+id/fragment_4"
-                    android:title="fragment_4"/>
+                    android:title="数据保存练习"/>
             
             
             </group>
