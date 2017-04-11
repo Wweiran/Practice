@@ -102,12 +102,14 @@
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."    </string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    
     
     <string-array name="save_date">
         <item name="from_shared">SharedPreferences</item>
         <item name="from_file">文件存储</item>
         <item name="from_sqlite">数据库存储</item>
+        <item name="from_file_seri">文件序列化存储</item>
     </string-array>
 
 </resources>

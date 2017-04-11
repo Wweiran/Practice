@@ -6,10 +6,13 @@
         android:title=" "
         >
         <menu>
-            <group android:checkableBehavior="single">
+            <group>
                 <item
                     android:id="@+id/fragment_main"
                     android:title="Fragment练习"/>
+                <item
+                    android:id="@+id/fragment_add"
+                    android:title="FragmentAdd"/>
             </group>
         </menu>
     </item>
@@ -29,9 +32,17 @@
                     android:id="@+id/fragment_3"
                     android:title="fragment_3"/>
                 <item
-                    android:id="@+id/fragment_4"
+                    android:id="@+id/activity_1"
                     android:title="数据保存练习"/>
-            
+                <item
+                    android:id="@+id/activity_2"
+                    android:title="有关隐式Intent练习"/>
+                <item
+                    android:id="@+id/activity_3"
+                    android:title="Multimedia"/>
+                <item
+                    android:id="@+id/activity_4"
+                    android:title="KeyEventDemo"/>
             
             </group>
         </menu>

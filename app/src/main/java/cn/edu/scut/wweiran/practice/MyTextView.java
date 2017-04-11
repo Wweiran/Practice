@@ -10,7 +10,6 @@ import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
 
 /**
  * Created by WANGWEIRAN on 2017/3/27.
@@ -145,8 +144,8 @@ public class MyTextView extends android.support.v7.widget.AppCompatTextView {
 
 
 //                方式一
-//                offsetLeftAndRight(offsetX);
-//                offsetTopAndBottom(offsetY);
+                offsetLeftAndRight(offsetX);
+                offsetTopAndBottom(offsetY);
 //                方式二
 //                layout(getLeft() + offsetX, getTop() + offsetY, getRight() + offsetX, getBottom() + offsetY);
 //                方式三(暂时行不通)这里行不通是因为使用的坐标是绝对的rawX与rawY
@@ -158,10 +157,10 @@ public class MyTextView extends android.support.v7.widget.AppCompatTextView {
 //                ((View)getParent()).scrollBy(-offsetX,-offsetY);
 //                修改
 //                scrollBy(-offsetX,-offsetY);
-                ((View)getParent()).scrollTo(-rawX+lastX, -rawY+lastY);
+//                ((View)getParent()).scrollTo(-rawX+lastX, -rawY+lastY);
 
-//                lastX = rawX;
-//                lastY = rawY;
+                lastX = rawX;
+                lastY = rawY;
 
 
                 break;

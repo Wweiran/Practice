@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.scut.wweiran.fragmentpractice.ImplicitActivity">
+    
+    
+    
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="地图Intent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="闹钟"
+        app:layout_constraintLeft_toRightOf="@+id/btn_map"
+        app:layout_constraintTop_toTopOf="@+id/btn_map"/>
+    
+    <Button
+        android:id="@+id/btn_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="定时器"
+        app:layout_constraintLeft_toRightOf="@+id/btn_alarm"
+        app:layout_constraintTop_toTopOf="@+id/btn_alarm"/>
+    
+    <Button
+        android:id="@+id/btn_show_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:text="显示所有闹钟"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_map"
+        app:layout_constraintTop_toBottomOf="@+id/btn_map"/>
+    
+    <Button
+        android:id="@+id/btn_add_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="添加日历"
+        app:layout_constraintLeft_toRightOf="@+id/btn_show_alarm"
+        app:layout_constraintTop_toTopOf="@+id/btn_show_alarm"/>
+    
+    <Button
+        android:id="@+id/btn_pick_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="选择联系人"
+        app:layout_constraintLeft_toRightOf="@+id/btn_add_calendar"
+        app:layout_constraintTop_toTopOf="@+id/btn_add_calendar"/>
+    
+    <Button
+        android:id="@+id/btn_pick_special_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:text="选择特定联系人数据"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_show_alarm"
+        app:layout_constraintTop_toBottomOf="@+id/btn_show_alarm"/>
+    
+    <Button
+        android:id="@+id/btn_contact_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="选择联系人并查看"
+        app:layout_constraintLeft_toRightOf="@+id/btn_pick_special_contact"
+        app:layout_constraintTop_toTopOf="@+id/btn_pick_special_contact"/>
+    
+    <Button
+        android:id="@+id/btn_edit_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:text="编辑已选联系人"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_pick_special_contact"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pick_special_contact"/>
+    
+   
+</android.support.constraint.ConstraintLayout>
